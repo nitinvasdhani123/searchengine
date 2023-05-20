@@ -1,0 +1,168 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+marquee
+{
+    margin-bottom: -5px;
+    font-size: 2rem;
+    color: #ffff;
+    background-color: #2F44FD;
+}
+
+marquee:hover
+{
+    background-color: #ffff;
+    color: #2F44FD;
+}
+
+#container
+{
+    display: flex;
+    height: 100vh;
+}
+
+.container1
+{
+    width: 100vw;
+    height: 75%;
+    background-color: #2F44FD;
+    border-radius:100% 0% 15% 85% / 0% 46% 54% 100% ;
+    position: absolute;
+    z-index: -1;
+}
+
+.container2
+{
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ffff;
+    width: 40%;
+    margin: auto;
+    box-shadow: 1px 1px 5px rgb(37, 37, 37);
+    border-radius:45px;
+    backdrop-filter: blur(12rem);
+}
+#option{
+    color:#2F44FD;
+    text-align: center;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 8px;
+    border-color: #ffff;
+    width: 130px;
+}
+.container2 h2
+{
+    font-size: 2rem;
+}
+
+span
+{
+    font-size: 1.5rem;
+    margin: 12px 0px;
+}
+
+#fname
+{
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 8px;
+    border-color: #ffff;
+    text-align: center;
+    color:#2F44FD;
+    caret-color: red;
+}
+#lname
+{
+    color:#2F44FD;
+    text-align: center;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 8px;
+    border-color: #ffff;
+    caret-color: red;
+}
+#Email
+{
+    color:#2F44FD;
+    text-align: center;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 8px;
+    border-color: #ffff;
+    caret-color: red;
+}
+
+#PW
+{
+    color:#2F44FD;
+    text-align: center;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 8px;
+    border-color: #ffff;
+    caret-color: red;
+}
+
+#PWs
+{
+    color:#2F44FD;
+    text-align: center;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 8px;
+    border-color: #ffff;
+    caret-color: red;
+}
+#Gender
+{
+    padding: 0rem 0.8rem;
+}
+.btn
+{
+    font-size: 1rem;
+    border-radius: 15px;
+    color: #ffff;
+    background-color: #2F44FD;
+    border: 1px solid #ffff;
+    padding: 6px 25px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background-color: #ffff;
+    color: #2F44FD;
+}
+
+.para
+{
+    font-size: 1rem;
+}
+
+.link
+{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.link:hover
+{
+    color: #2F44FD;
+}
+::placeholder{
+    color:#2F44FD;
+    text-align: center;
+}
+input{
+    caret-color:red;
+}

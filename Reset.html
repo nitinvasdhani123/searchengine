@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Reset Password | Login | Info Hunt | infohunt.com</title>
+    <link rel="shortcut icon" href="/Logos/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <marquee behavior='alternate' direction='left'>INFO HUNT</marquee>
+    <form action="reset.php" method="post" name="reset">
+    <div id='container'>
+        <div class='container1'></div>
+        <div class='container2'>
+            <h2>Reset Password</h2>
+            <input type="text" name="otp" id="text" placeholder="OTP" maxlength="4">
+            <input type="password" name="password1" id="password" placeholder="Password">
+            <input type="password" name="password2" id="confirmpassword" placeholder="Confirm Password">
+            <p id="message"></p>
+                <div><input type='checkbox' onclick='show()' id='checkbox'><label for='checkbox'> Show Password</label></div>
+                <span>
+                <button type="submit" class="btn" name="verification">Submit</button>
+            </span>
+        </div>
+    </div>
+</form>
+    <script src="reset.js"></script>
+</body>
+</html>

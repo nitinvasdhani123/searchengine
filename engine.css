@@ -1,0 +1,60 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+html
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/1319309853/photo/magnifying-glass-in-the-laptop-in-the-dark.jpg?b=1&s=170667a&w=0&k=20&c=1A4Y7VgogHkp7QtI7cZNAyaqDKDVq5HDA_6we6VByr0=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+/*--------------------------------------------------------------------------------------- */
+
+/* shortcut code start here */
+#container
+{
+    display: flex;
+    background-color: #4285f4;
+    justify-content: space-between;
+}
+
+#container1
+{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:  column;
+    border: 2px solid white;
+    width: 40%;
+    box-shadow: 1px 1px 5px rgb(37, 37, 37);
+    border-radius:45px;
+    backdrop-filter: blur(0.3rem);
+    color: #09035f;
+}
+
+#image
+{
+    width: 5rem;
+    height: 4rem;
+    margin: 10px 15px;
+}
+/* shortcut code end here */

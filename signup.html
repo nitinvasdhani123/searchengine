@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up | Infohunt | infohunt.com</title>
+    <link rel="shortcut icon" href="/Logos/icon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <script src="signup.js"></script>
+  </head>
+  <body>
+    
+    <marquee behavior="alternate" direction="left">INFO HUNT</marquee>
+    <form action="signup.php" method="post" name="signup"> 
+      <div id="container">
+        <div class="container1"></div>
+        <div class="container2">
+          <h2>Sign Up</h2>
+          <span> 
+            <input type="text" name="textbox1" id="fname" maxlength="40" placeholder="First Name " required/> 
+          </span>
+          <span> 
+            <input type="text" name="textbox2" id="lname" maxlength="40" placeholder="Last Name " required/>
+        </span>
+        <span>
+          <span id="Gender">Gender : </span>
+          <select name="gender" id="option">
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </span>
+        <span>
+            <input type="email" name="textbox3" id="Email" maxlength="40" placeholder="E-mail " required>
+        </span>     
+        <span>
+            <input type="password" name="textbox4" id="PWs" maxlength="20" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least 8 digit with the combination of one uppercase and lowercase letter, digits and special symbols" required>
+        </span>
+        <span>
+            <input type="password" name="textbox5" id="PW" maxlength="20" placeholder="Confirm password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least 8 digit with the combination of one uppercase and lowercase letter, digits and special symbols" required>
+        </span>
+        <p id="message"></p>
+        <div><input type="checkbox" id="checkbox" onclick="show()" /><label for="checkbox"> Show Password</label></div>
+        <!-- onclick="error()" -->
+        <p class="para">Already a member?<a class="link" href="login.html" target="">&nbsp;&nbsp;Login </a></p>
+        <!-- <button class="btn" type="submit">Sign Up</button> -->
+        <input type="submit" value="Sign Up" name="signup" onclick="checkpassword()" class="btn">
+      </div>
+    </form> 
+  </body>
+</html>

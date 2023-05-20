@@ -1,0 +1,140 @@
+/* navbar code */
+*{
+    margin: 0;
+    padding :0;
+}
+#navbar
+{
+    display: flex;
+    background-color:#2F44FD;
+    justify-content: space-between;
+    margin-top: -5px;
+    height: 55px;
+}
+
+#ima_h1
+{
+    display: flex;
+}
+
+#ima_h1 img
+{
+    margin: 4px;
+    width: 4rem;
+    height: 3rem;
+}
+
+#ima_h1 h1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2px;
+    color: #ffff;
+    font-size: 2.7em;
+}
+
+#menu 
+{
+    display: flex;
+    align-items: center;
+}
+
+#menu ul
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#menu ul li 
+{
+    cursor: pointer;
+    padding: 0rem 2rem;
+    list-style: none;
+}
+
+#menu img
+{
+    margin: 1px;
+    width: 2em;
+    height: 2em;
+    shape-image-threshold:inherit;
+}
+
+#menu ul li a
+{
+    text-decoration: none;
+}
+
+#setting
+{
+    display: flex;
+}
+
+#setting i
+{
+    margin-top: 0.5rem;
+    padding-left: 0.2rem;
+    color:#2F44FD;
+}
+
+#setting .dropdown-content li
+{
+    padding-left: 1px;
+}
+
+
+#setting .dropdown-content 
+{
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    /* border: 0.5px solid #302f2f; */
+    display: none; 
+    position: absolute; 
+    background-color:#dee0e4;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#setting .dropdown-content  a 
+{
+    color: #ffff;
+    padding: 10px 0px;
+    text-decoration: none;
+    display: block;
+}
+
+
+#setting .dropdown-content  a:hover 
+{
+    color: rgb(39, 240, 49);
+}
+
+#setting:hover .dropdown-content {
+    display: block;
+  }
+
+  
+#menu ul li .username{
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid #ffff;
+    background-color: #2F44FD;
+    position: absolute;
+    top: 2.5rem;
+    border-radius: 2rem;
+    box-shadow: 0px 15px 20px 0px rgba(0,0,0,0.2);
+    backdrop-filter: blur(2rem);
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-size:large;
+    color:#ffff;
+    font-family:Calibri,Times New Roman,Verdana,Helvetica ;
+    font-weight: bold;
+    display: none;
+    text-align: center;
+    padding-bottom: 0.2rem;
+}
+
+#username:hover .username{
+    display: block;
+}
+/* navbar code ends here */

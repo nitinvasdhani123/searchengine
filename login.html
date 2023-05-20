@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Info Hunt | infohunt.com</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <marquee behavior='alternate' direction='left'>INFO HUNT</marquee>
+    <form action="login.php" method="post" name="login" enctype="multipart/form-data">
+      <div id="container">
+        <div class="container1"></div>
+        <div class="container2">
+          <h2>Login</h2>
+          <span>
+            <input type="email" name="TextboxEmail" id="Email" placeholder="Username" required>
+          </span>
+          <span>
+            <input type="password" name="TextboxPassword" id="password" placeholder="Password" required>
+          </span>
+          <p class="para"><a class="link" href="signup.html" target="">Create One</a></p>
+          <a class="link" href="forget.html" target="">Forget Password</a>
+          <div><input type="checkbox" onclick="show()" id="checkbox"><label for="checkbox"> Show Password</label></div>
+         <input type="submit" value="Login" name="login" class="btn"> 
+        </div>
+      </div>
+    </form>
+    <script src="login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-size: cover;
+}
+
+marquee
+{
+    margin-bottom: -5px;
+    font-size: 2rem;
+    color: #ffff;
+    background-color: #2F44FD;
+}
+
+marquee:hover
+{
+    background-color: #ffff;
+    color: #2F44FD;
+}
+
+
+#container
+{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container1
+{
+    width: 100vw;
+    height: 75%;
+    background-color: #2F44FD;
+    border-radius:100% 0% 15% 85% / 0% 46% 54% 100% ;
+    position: absolute;
+    z-index: -1;
+}
+
+.container2
+{
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ffff;
+    width: 34%;
+    margin: auto;
+    box-shadow: 1px 1px 5px rgb(37, 37, 37);
+    border-radius:45px;
+    backdrop-filter: blur(2rem);
+}
+
+.container2 h2
+{
+    font-size: 2rem;
+}
+
+span
+{
+    font-size: 1.5rem;
+    margin: 12px 0px;
+}
+
+#Email
+{
+    text-align: center;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 8px;
+    border-color: #ffff;
+    color:#2F44FD;
+}
+
+#password
+{
+    text-align: center;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 8px;
+    border-color: #ffff;
+    color:#2F44FD;
+}
+
+.btn
+{
+    font-size: 1rem;
+    border-radius: 15px;
+    color: #ffff;
+    background-color: #2F44FD;
+    border: 1px solid #ffff;
+    padding: 6px 25px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background-color: #ffff;
+    color: #2F44FD;
+}
+
+a
+{
+    color: #ffff;
+    text-decoration: none;
+    margin:0px;
+}
+
+a:hover
+{
+    color: rebeccapurple;
+}
+
+::placeholder{
+    color:#2F44FD;
+    text-align: center;
+}
+
+.link
+{
+    margin-bottom: 10px;
+}
